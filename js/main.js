@@ -6,7 +6,7 @@ const tabContentItems = document.querySelectorAll('.tab-content-item');
 function selectItem(e) {
   removeBorder();
   removeShow();
-  //Add border to currrent tab
+  //Add border to current tab
   this.classList.add('tab-border');
   // Grab content item from DOM
   const tabContentItem = document.querySelector(`#${this.id}-content`)
